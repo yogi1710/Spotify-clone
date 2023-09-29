@@ -37,19 +37,51 @@ nav ul li{
     font-size: 1.3rem;
 }
 
+.main-container{
+    display: flex;
+    flex-direction: row;
+}
+
 .container{
     min-height: 65vh;
     background-color: black;
     color: white;
     font-family: sans-serif;
     display: flex;
-    margin: 23px auto;
-    width: 70%;
+    margin-top: 23px;
+    margin-left: 35px;
+    margin-bottom: 20px;
+    width: 50%;
     border-radius: 12px;
     padding: 30px;
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
+}
+
+.lyrics-container{
+    min-height: 55vh;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 23px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    margin-right: 20px;
+    padding: 30px;
+}
+
+.lyrical-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 0;
+    color: white;
+    height: 70vh;
+    padding-top: 20px;
+    font-size: 1.1rem;
+    overflow: auto;
 }
 
 .bottom{
